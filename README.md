@@ -183,3 +183,28 @@ The Little Lemon website was missing a clear **Reserve a Table** feature. To sol
 
 ✅ At this stage, the **homepage wireframe** and layout for key pages are complete in Figma.  
 This provides a strong foundation to start designing the actual UI and ensures that the **Reserve a Table** feature is properly integrated into the flow.  
+
+## Step 4: Select Occasion Component (Figma)
+
+### Overview  
+In this step, I designed a **dropdown component** in Figma that allows users to select an occasion (such as **Birthday, Engagement, Anniversary**) when reserving a table. This enhances the user experience by enabling the restaurant to prepare for special events and improves personalization.  
+
+### Process  
+1. **Created Base Component**  
+   - Rectangle (400w x 80h) with rounded corners and drop shadow.  
+   - Added placeholder text (“Select Occasion”), an icon, and a chevron (arrow) to indicate dropdown functionality.  
+
+2. **Created Dropdown Options**  
+   - Designed variants for different states: default (idle), open list, and selected options (Birthday, Engagement, Anniversary).  
+   - Applied styles: background `#EDEFEE`, selected state `#495E57` with white text.  
+
+3. **Prototyping & Animation**  
+   - Used **Smart Animate** for smooth transitions between idle, dropdown open, and selected states.  
+   - Connected all variants for interactive flow:
+     - Idle → Dropdown → Option Selected → Back to Idle.  
+
+### Screenshots / Prototype  
+![Figma Component](./public/Select%20Occation.svg)
+
+---
+
