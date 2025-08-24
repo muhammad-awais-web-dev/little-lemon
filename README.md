@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Little Lemon Restaurant - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Project Description  
+This project is the **Capstone Project** for the **Meta Front-End Developer Professional Certificate**.  
+It focuses on building a fully functional **React.js web application** for a fictional restaurant called **Little Lemon**.  
 
-## Available Scripts
+The purpose of this project is to bring together everything learned throughout the specialization — including **React fundamentals, routing, form handling, testing, accessibility, and responsive design** — into a real-world, client-focused application.  
 
-In the project directory, you can run:
+## 👨‍💻 Author  
+**Muhammad Awais**  
+- Front-End Developer | Web Designer | WordPress & React Enthusiast  
+- Portfolio: [https://muhammad-awais-web-dev.github.io/](https://muhammad-awais-web-dev.github.io/)  
+- GitHub: [https://github.com/muhammad-awais-web-dev](https://github.com/muhammad-awais-web-dev)  
+- LinkedIn: [https://www.linkedin.com/in/muhammad-awais-web-dev](https://www.linkedin.com/in/muhammad-awais-web-dev)  
 
-### `npm start`
+## 🎯 Project Goals / Needs  
+- Develop a **multi-page React application** for Little Lemon.  
+- Implement **React Router** for navigation.  
+- Create a **table reservation form** with validation and confirmation.  
+- Ensure **accessibility and semantic HTML** standards.  
+- Apply **responsive design** for mobile, tablet, and desktop.  
+- Use **React Testing Library** and **Jest** for testing components.  
+- Follow **best practices** in project structure and code quality.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack  
+- **React.js** – Front-end library for building UI  
+- **React Router** – Navigation and routing  
+- **Jest & React Testing Library** – Component and unit testing  
+- **CSS (Modules / Plain CSS)** – Styling and responsiveness  
+- **Git & GitHub** – Version control and project hosting  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Installation & Setup  
 
-### `npm run build`
+Follow these steps to run the project locally:  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/muhammad-awais-web-dev/little-lemon-capstone.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Navigate into the project folder**  
+   ```bash
+   cd little-lemon
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install dependencies**  
+   ```bash
+   npm install
 
-### `npm run eject`
+4. **Run the development server**  
+   ```bash
+   npm start
+5. **Open your browser and go to:**  
+    ```
+    http://localhost:3000
+    ```
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Project Progress
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Step 1: Setup of the Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Overview**  
+Before building the Little Lemon React app, the project needed to be set up properly. Instead of coding everything from scratch, a boilerplate React project was initialized and cleaned up for a smooth start.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This step also included installing helpful VS Code extensions that improve development efficiency and readability.  
 
-## Learn More
+**Scenario**  
+The goal was to prepare the foundation for the **Reserve a Table** feature of the Little Lemon website by creating and organizing the React project structure.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Instructions Followed**
 
-### Code Splitting
+1. **VS Code Extensions Installed**
+   - **ES7+ React/Redux/GraphQL/React-Native** → Provides React and JavaScript snippets.  
+   - **Auto Rename Tag** → Automatically renames paired HTML/JSX tags.  
+   - **Trailing Spaces** → Highlights and removes accidental whitespace.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. **Created the React Project**  
+   ```bash
+   npx create-react-app little-lemon
+   cd little-lemon
