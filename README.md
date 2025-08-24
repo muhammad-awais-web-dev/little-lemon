@@ -117,3 +117,69 @@ As development of the Little Lemon React app progresses, every change needs to b
 4. **Verified on GitHub**
  - Navigated to the Little Lemon repo
  - Confirmed that the new commit appeared in the history with the proper message.
+
+ ---
+
+### Step 3: Created Wireframe
+
+**Overview**  
+Before jumping into coding the UI, the homepage and reserve-a-table flow of the Little Lemon website were **wireframed in Figma**. Wireframes act like digital blueprints, focusing on structure and user experience before adding colors, images, or branding.  
+
+This step ensured that the navigation, layout, and core features of the app were mapped out clearly.  
+
+---
+
+**Scenario**  
+The Little Lemon website was missing a clear **Reserve a Table** feature. To solve this, the homepage wireframe was created with a dedicated button and proper navigation to highlight this option. Other sections were also planned to ensure a professional and user-friendly structure.  
+
+---
+
+**Instructions Followed**
+
+1. **Client’s Requirements Identified**  
+   - About Little Lemon  
+   - Highlights and specials  
+   - Descriptions and photos of dishes  
+   - Navigation bar  
+   - Footer  
+   - Testimonials  
+
+2. **Created Frame and Grid in Figma**  
+   - Frame size: **1440 × 2900 px**  
+   - Added a **12-column layout grid**  
+   - Created content block placeholders for each section  
+
+3. **Designed Navigation Bar Block**  
+   - Logo placeholder  
+   - Links: *Home, About, Menu, Reservations, Order Online, Login*  
+
+4. **Designed Hero Section Block**  
+   - Title: “Little Lemon”  
+   - Location & short description  
+   - CTA button: **Book a Table Online**  
+
+5. **Designed Highlights Section**  
+   - Weekly specials (dish name, description, price, image)  
+   - Horizontal scroll for more dishes  
+   - “Order Online” button  
+
+6. **Designed Testimonials Section**  
+   - Review placeholders with ratings (out of 5)  
+   - Separate background for distinction  
+
+7. **Designed About Section**  
+   - Text placeholder for description  
+   - Image placeholders for restaurant visuals  
+
+8. **Designed Footer Section**  
+   - Logo  
+   - Doormat navigation links  
+   - Contact details  
+   - Social media links  
+
+---
+
+![WireFrame Screenshot](./public/Wireframe.svg)
+
+✅ At this stage, the **homepage wireframe** and layout for key pages are complete in Figma.  
+This provides a strong foundation to start designing the actual UI and ensures that the **Reserve a Table** feature is properly integrated into the flow.  
