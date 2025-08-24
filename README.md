@@ -83,3 +83,37 @@ The goal was to prepare the foundation for the **Reserve a Table** feature of th
    ```bash
    npx create-react-app little-lemon
    cd little-lemon
+---
+
+### Step 2: First Commit
+
+**Overview**  
+After setting up and cleaning the React project in Step 1, the next step was to make the **first commit** and push the changes to the GitHub repository. This ensures the project setup is properly tracked with version control, making it easier to manage progress and collaborate if needed.  
+
+---
+
+**Scenario**  
+As development of the Little Lemon React app progresses, every change needs to be committed and pushed to GitHub. This helps in:  
+- Keeping a history of project updates  
+- Allowing others (or future me) to view and collaborate on the code  
+- Providing a backup of the work in case of local issues  
+
+---
+
+**Instructions Followed**
+
+1. **Saved All Updates**  
+   - Ensured all modified files were saved in VS Code.  
+
+2. **Staged and Committed Changes**  
+   ```bash
+   git add --all
+   git commit -m "Simplify boilerplate app – removed logo and cleaned App.js"
+
+3. **Pushed Changes to GitHub**  
+   ```bash
+   git push
+
+4. **Verified on GitHub**
+ - Navigated to the Little Lemon repo
+ - Confirmed that the new commit appeared in the history with the proper message.
