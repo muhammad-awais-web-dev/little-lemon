@@ -207,4 +207,48 @@ In this step, I designed a **dropdown component** in Figma that allows users to 
 ![Figma Component](./public/Select%20Occation.svg)
 
 ---
+## Step 5: Style Guidelines
 
+### Overview  
+To maintain consistency in branding and UI design, I created the **Little Lemon Style Guide**.  
+This includes **logos, typography, color palettes, and photography rules** that ensure a professional and unified look across the application.
+
+### Logos  
+- **Primary Logos**: Green and yellow logos (icon + wordmark).  
+- **Monochrome Logos**: White on green or green on white, used only when primary colors cannot be applied.  
+- **Icons**: Lemon icons for simplified branding.  
+
+### Typography  
+- **Headlines** → `Markazi Text Medium`  
+  - Used for titles and section headers.  
+  - Sentence case, same point size as headlines.  
+
+- **Paragraphs** → `Karla Regular`  
+  - Used for body text.  
+  - 65% of headline size.  
+
+### Color Palette  
+**Primary Colors**  
+- Green → `#495E57`  
+- Yellow → `#F4CE14`
+
+**Secondary Colors**  
+- Peach → `#EE9972`  
+- Light Pink → `#FBDABB`
+
+**Highlight Colors**  
+- Light Gray → `#EDEFEE`  
+- Dark Gray → `#333333`
+
+### Photography Guidelines  
+- **Assets**: Use casual, simple restaurant images.  
+- **Product Shots**: Food photography should feel warm and inviting.  
+- **Do’s**: Natural light, environment/dishes photography.  
+- **Don’ts**: Avoid overly stylized studio shots.  
+
+---
+
+![Style Guide](./public/Ui%20kit.svg)
+
+✅ With the style guide finalized, the Little Lemon React app now has a clear design language.  
+This will guide the **UI development phase** to ensure that the branding and visuals match the restaurant’s identity.
