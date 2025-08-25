@@ -266,3 +266,20 @@ This ensured that the wireframe not only had a functional layout but also reflec
 ![Styled Page](./public/Wireframe-%20with%20Guidelines.webp)
 
 ✅ At this stage, the homepage design is now styled according to the official Little Lemon brand guidelines.
+
+## Step 7: Wireframes & Styled Wireframes for Other Pages  
+
+### Overview  
+After finalizing the homepage, the next step was to design **wireframes and styled versions** for the remaining key pages: **About Us, Menu, and Reservation**.  
+This ensured that each page followed the same **layout structure, style guidelines, and brand identity** established earlier.  
+
+---
+
+### Screenshots  
+**Wireframes (Structure)**  
+![Other Pages Wireframes](./public/Other%20Wireframes.webp)  
+
+**Styled Wireframes (With Guidelines Applied)**  
+![Other Pages Styled](./public/Other%20Styled%20Wireframes.webp)  
+
+✅ Now, all main pages have both wireframes and styled wireframes ready for development.
