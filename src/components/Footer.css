@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 45px;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 0px;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    list-style:none;
+    padding: 0 10px;
+}
+footer div p{
+    width: fit-content;
+}
+footer div p i{
+    font-size: 1.5rem;
+}
