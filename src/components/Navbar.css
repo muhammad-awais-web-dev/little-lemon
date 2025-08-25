@@ -1,0 +1,98 @@
+/* ===== Navbar ===== */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  background-color: white;
+  backdrop-filter: blur(15px);
+  box-shadow: 2px 0 8px 2px #0f0f0f33;
+  position:sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#navMenu {
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 0px;
+  transition: color 0.2s ease;
+}
+
+.navLink:hover {
+  color: #F4CE14;
+}
+
+
+/* ===== Burger Menu ===== */
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.burger span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  transition: 0.3s;
+}
+
+.burger.open span:nth-child(1) {
+  transform: rotate(45deg) translateY(11px);
+}
+.burger.open span:nth-child(2) {
+  opacity: 0;
+}
+.burger.open span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-11px);
+}
+
+/* ===== Mobile Menu ===== */
+@media (max-width: 900px) {
+  .burger {
+    display: flex;
+  }
+  #navbar{
+    backdrop-filter: none;
+    background-color: #000;
+  }
+
+  #navMenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(225,255,255, 0.1);
+    backdrop-filter: blur(12px);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 20px 20px;
+    gap: 15px;
+    width: 220px;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #navMenu.active {
+    transform: translateX(0);
+  }
+
+  .navLink{
+    width: 100%;
+    padding: 8px 0;
+  }
+}
