@@ -263,6 +263,6 @@ This ensured that the wireframe not only had a functional layout but also reflec
 ---
 
 ### Finished Design Screenshot  
-![Styled Page](./public/Wireframe-%20with%20Guidelines.svg)
+![Styled Page](./public/Wireframe-%20with%20Guidelines.webp)
 
 ✅ At this stage, the homepage design is now styled according to the official Little Lemon brand guidelines.
