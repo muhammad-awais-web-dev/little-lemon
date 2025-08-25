@@ -179,7 +179,7 @@ The Little Lemon website was missing a clear **Reserve a Table** feature. To sol
 
 ---
 
-![WireFrame Screenshot](./public/Wireframe.svg)
+![WireFrame Screenshot](./public/Wireframe.webp)
 
 ✅ At this stage, the **homepage wireframe** and layout for key pages are complete in Figma.  
 This provides a strong foundation to start designing the actual UI and ensures that the **Reserve a Table** feature is properly integrated into the flow.  
@@ -204,7 +204,7 @@ In this step, I designed a **dropdown component** in Figma that allows users to 
      - Idle → Dropdown → Option Selected → Back to Idle.  
 
 ### Screenshots / Prototype  
-![Figma Component](./public/Select%20Occation.svg)
+![Figma Component](./public/Select%20Occation.webp)
 
 ---
 ## Step 5: Style Guidelines
@@ -248,7 +248,7 @@ This includes **logos, typography, color palettes, and photography rules** that 
 
 ---
 
-![Style Guide](./public/Ui%20kit.svg)
+![Style Guide](./public/Ui%20kit.webp)
 
 ✅ With the style guide finalized, the Little Lemon React app now has a clear design language.  
 This will guide the **UI development phase** to ensure that the branding and visuals match the restaurant’s identity.
