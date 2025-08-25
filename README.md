@@ -252,3 +252,17 @@ This includes **logos, typography, color palettes, and photography rules** that 
 
 ✅ With the style guide finalized, the Little Lemon React app now has a clear design language.  
 This will guide the **UI development phase** to ensure that the branding and visuals match the restaurant’s identity.
+
+## Step 6: Applying Style Guidelines to Wireframe
+
+### Overview  
+After creating the wireframe, the next step was to **apply the style guidelines** (colors, typography, and branding) to bring the design closer to the final look of the Little Lemon website.  
+
+This ensured that the wireframe not only had a functional layout but also reflected the restaurant’s **brand identity**.  
+
+---
+
+### Finished Design Screenshot  
+![Styled Page](./public/Wireframe-%20with%20Guidelines.svg)
+
+✅ At this stage, the homepage design is now styled according to the official Little Lemon brand guidelines.
