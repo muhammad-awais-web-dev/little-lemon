@@ -1,0 +1,89 @@
+/* AboutSection.module.css */
+
+.aboutSection {
+  padding: 4rem 8%;
+  background-color: #f4ce14; /* The specified yellow background */
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 2rem;
+  align-items: center;
+}
+
+
+
+.title {
+  font-family: 'serif'; /* A serif font looks best for this style */
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #4b5e57; /* The specified dark green/grey text color */
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #4b5e57;
+  margin-top: -1rem; /* Pulls the subtitle up a bit */
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #4b5e57;
+  line-height: 1.6;
+  max-width: 500px; /* Prevents text line from being too long */
+}
+
+.imageContainer {
+  position: relative;
+  height: 400px; /* Give the container a fixed height to position images within */
+  width: 100%;
+}
+
+.image {
+  max-width: 70%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  position: absolute; /* Key to overlapping */
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.05); /* Nice hover effect */
+}
+
+.imageOne {
+  top: 0;
+  left: 0;
+  z-index: 2; /* Ensures this image is on top */
+}
+
+.imageTwo {
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* --- Media Query for Responsiveness --- */
+@media (max-width: 900px) {
+  .aboutSection {
+    grid-template-columns: 1fr; /* Stack columns on smaller screens */
+    text-align: center;
+  }
+
+  .textContainer {
+    order: 2; /* Move text below the images */
+  }
+
+  .imageContainer {
+    order: 1;
+    margin-bottom: 2rem;
+    height: 350px; /* Adjust height for mobile */
+  }
+
+  .description {
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
