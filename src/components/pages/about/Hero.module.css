@@ -1,0 +1,25 @@
+.Hero{
+    display: flex;
+}
+.Hero div{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+    justify-content: center;
+    padding: 25px 30px;
+    gap: 25px;
+}
+.Hero img{
+    max-width: 300px;
+    margin: auto;
+    border-radius: 30px;
+    border: 2px solid #000;
+}
+.Hero h2{
+  font-family: "Itim", cursive;
+}
+@media (max-width:800px) {
+    .Hero{
+        flex-direction: column-reverse;
+    }
+}
