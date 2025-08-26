@@ -16,7 +16,9 @@ function Navbar() {
 
   return (
     <nav id="navbar">
-        <img src={`${process.env.PUBLIC_URL}/SVG/logo-With-Text.svg`} alt="Little Lemon Logo" />
+        <Link to='/'>
+          <img src={`${process.env.PUBLIC_URL}/SVG/logo-With-Text.svg`} alt="Little Lemon Logo" />
+        </Link>
 
       {/* Burger Icon */}
       <div className={`burger ${isMenuOpen ? "open" : ""}`} onClick={toggleMenu}>
