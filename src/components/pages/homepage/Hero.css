@@ -1,10 +1,106 @@
-.Hero-Home{
-    display: flex;
-    flex-direction: row;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 50px;
+/* Hero Section */
+.home-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b5e57;
+  color: white;
+  padding: 25px;
 }
-.Hero-Home div{
-    flex: 1 1 50%;
+
+.home-hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1200px;
+  max-width: 100%;
+  gap: 60px;
+}
+
+.home-hero-content {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 35px;
+}
+
+/* Title */
+.home-hero-title {
+  color: #f4ce14;
+  font-family: "Markazi Text", serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* aligns "Chicago" to the right */
+  width: fit-content;
+}
+
+.home-hero-title span {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #f4ce14;
+}
+
+/* Paragraph */
+.home-hero-text {
+  color: white;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+/* Button */
+.home-hero-button {
+  color: white;
+}
+
+
+/* Image */
+.home-hero-image {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-hero-image img {
+  width: 100%;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .home-hero-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .home-hero-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .home-hero-title {
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-hero-title {
+    font-size: 32px;
+  }
+
+  .home-hero-title span {
+    font-size: 16px;
+  }
+
+  .home-hero-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 }

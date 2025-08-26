@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: solid #F4CE14 2px;
+    background: transparent;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    overflow: hidden;
+    z-index: 1;
+    transition: transform 0.2s ease;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #F4CE14;
+    z-index: -1;
+    transition: left 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button:hover::before {
+    left: 0;
 }
