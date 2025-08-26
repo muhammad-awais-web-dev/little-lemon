@@ -86,4 +86,8 @@
       margin-left: auto;
       margin-right: auto;
   }
+  .imageContainer{
+    max-width: 350px;
+    margin: auto;
+  }
 }
