@@ -1,0 +1,10 @@
+.Hero-Home{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+}
+.Hero-Home div{
+    flex: 1 1 50%;
+}
