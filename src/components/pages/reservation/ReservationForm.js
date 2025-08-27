@@ -47,7 +47,7 @@ function ReservationForm({ availableTimes, dispatch }) {
     <div>
       <h2>Reservation Form</h2>
       <form className={Styles.form} onSubmit={handleSubmit}>
-        <label htmlFor="res-date" className={Styles.label}>Choose date</label>
+        <label htmlFor="res-date" className={Styles.label}>Choose date*</label>
         <input
           type="date"
           id="res-date"
@@ -59,7 +59,7 @@ function ReservationForm({ availableTimes, dispatch }) {
           <span className={Styles.error}>Please select a date</span>
         ) : null}
 
-        <label htmlFor="res-time" className={Styles.label}>Choose time</label>
+        <label htmlFor="res-time" className={Styles.label}>Choose time*</label>
         <select
           id="res-time"
           className={Styles.select}
@@ -74,7 +74,7 @@ function ReservationForm({ availableTimes, dispatch }) {
           <span className={Styles.error}>Please select a time</span>
         ) : null}
 
-        <label htmlFor="guests" className={Styles.label}>Number of guests</label>
+        <label htmlFor="guests" className={Styles.label}>Number of guests*</label>
         <input
           type="number"
           placeholder="1"

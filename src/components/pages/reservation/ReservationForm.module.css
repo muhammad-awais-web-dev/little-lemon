@@ -16,6 +16,12 @@
     color: #333;
     letter-spacing: 0.02em;
 }
+.error{
+    color: red;
+    font-size: 0.9rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
 
 .input,
 .select {
