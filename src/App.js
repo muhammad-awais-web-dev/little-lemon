@@ -29,14 +29,14 @@ function App() {
           <main>
             <AfterHeader title="Menu" strong="Bright, seasonal Mediterranean plates,simple ingredients, bold flavors." para="Our menu changes with the seasons and focuses on fresh produce, honest technique, and shareable moments. Below is a sample menu to capture the Little Lemon spirit for your website." />
 
-            <BeforeFooter heading="Dietary & Allergy Notes" para1="We’re happy to accommodate dietary needs. Many dishes can be made vegetarian, vegan, or gluten-free, ask your server. Please inform us of allergies before ordering." subHeading="Seasonal & Catering" para2="Our menu rotates with seasonal produce, check back for weekly specials and chef tasting nights. Hosting an event? Ask about our catering menu and private dining options." />
+            <BeforeFooter heading="Dietary & Allergy Notes" para1="We're happy to accommodate dietary needs. Many dishes can be made vegetarian, vegan, or gluten-free, ask your server. Please inform us of allergies before ordering." subHeading="Seasonal & Catering" para2="Our menu rotates with seasonal produce, check back for weekly specials and chef tasting nights. Hosting an event? Ask about our catering menu and private dining options." />
           </main>
         } />
         <Route path='/reservation' element={
           <main>
             <AfterHeader title="Resrvation" strong="Save your table. Share the moment." para=" We'd love to welcome you, whether it's a weekday lunch, a dinner with friends, or a small celebration. Below you'll find quick ways to book, what we need from you, and our reservation policies." />
 
-            <BeforeFooter heading="Dietary & Allergy Notes" para1="We’re happy to accommodate dietary needs. Many dishes can be made vegetarian, vegan, or gluten-free, ask your server. Please inform us of allergies before ordering." subHeading="Seasonal & Catering" para2="Our menu rotates with seasonal produce, check back for weekly specials and chef tasting nights. Hosting an event? Ask about our catering menu and private dining options." />
+            <BeforeFooter heading="Dietary & Allergy Notes" para1="We're happy to accommodate dietary needs. Many dishes can be made vegetarian, vegan, or gluten-free, ask your server. Please inform us of allergies before ordering." subHeading="Seasonal & Catering" para2="Our menu rotates with seasonal produce, check back for weekly specials and chef tasting nights. Hosting an event? Ask about our catering menu and private dining options." />
           </main>
         } />
       </Routes>
