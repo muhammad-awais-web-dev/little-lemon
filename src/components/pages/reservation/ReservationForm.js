@@ -18,7 +18,7 @@ function ReservationForm({ availableTimes, dispatch }) {
   return (
     <div>
       <h2>Reservation Form</h2>
-      <form data-testid="reservation-form" className={Styles.form}>
+      <form className={Styles.form}>
         <label htmlFor="res-date" className={Styles.label}>Choose date</label>
         <input
           type="date"
