@@ -1,0 +1,19 @@
+.beforeFooter{
+    background-color: #f4ce14;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 20px;
+}
+.beforeFooter h2{
+  font-family: "Itim", cursive;
+}
+.beforeFooter h3{
+    font-weight: 700;
+}
+.beforeFooter p{
+    max-width: 900px;
+    text-align: center;
+}

@@ -283,3 +283,81 @@ This ensured that each page followed the same **layout structure, style guidelin
 ![Other Pages Styled](./public/Other%20Styled%20Wireframes.webp)  
 
 ✅ Now, all main pages have both wireframes and styled wireframes ready for development.
+
+---
+
+## Step 8: Starting the Development Phase  
+
+### Overview  
+With all wireframes and style guidelines finalized, the project officially entered the **development phase**.  
+The goal was to transform the **Figma designs** into a real, functional **React.js application**, while maintaining clean code, semantic HTML, and reusable component structures.  
+
+---  
+
+### Scenario  
+The homepage and other pages were carefully broken down into **smaller components**, ensuring that the app could be easily maintained, updated, and scaled.  
+This modular approach makes it easier to apply consistent styles and logic across the project.  
+
+✅ Development officially kicked off with a focus on setting up **semantic structure** and **core reusable components**.  
+
+---
+
+## Step 9: Building Semantic Tag Structure  
+
+### Overview  
+To ensure **accessibility, SEO, and semantic clarity**, the project was structured using **semantic HTML5 tags** inside React components.  
+
+---  
+
+### Semantic Structure Applied  
+
+- `<header>` → Contains logo and navigation links.  
+- `<main>` → Core content for each page (hero, highlights, reservations, etc.).  
+- `<section>` → Divided major parts (hero, testimonials, about, etc.).  
+- `<article>` → Used for individual content blocks (special dishes, reviews).  
+- `<footer>` → Contact information, navigation, and social media links.  
+
+✅ This semantic foundation improves both **readability** and **usability** for assistive technologies.  
+
+---
+
+## Step 10: Creating Reusable Components  
+
+### Overview  
+To follow **best practices in React development**, the project components were designed to be **modular and reusable**.  
+This not only reduces code duplication but also ensures consistency across different pages.  
+
+---
+
+### Components Created  
+
+#### a) **Header**  
+- **Static Component** → Includes logo and navigation links.  
+- **Structure**: `<header>` with `<nav>` and `<ul>` for accessibility.  
+- Always stays at the top across all pages.  
+
+#### b) **Footer**  
+- **Static Component** → Contains contact details, doormat navigation, and social links.  
+- Placed inside `<footer>` for semantic structure.  
+
+#### c) **AfterHeader**  
+- **Dynamic Component** → Displays the section that comes **immediately after the header** (e.g., hero banner).  
+- **Managed via props** → Title, description, CTA button text can be customized depending on the page.  
+
+#### d) **BeforeFooter**  
+- **Dynamic Component** → Section that appears **just before the footer** (e.g., testimonials, promotions).  
+- **Managed via props** → Flexible design for adding content blocks depending on the page’s needs.  
+
+✅ By splitting the UI this way, the **Header** and **Footer** remain **static**, while **AfterHeader** and **BeforeFooter** are **flexible components** that adapt to each page via props.  
+
+---
+
+(Screenshot)
+![Preview of Header-AfterHeader-BeforeFooter-Footer](./public/Header-AfterHeader-BeforeFooter-Footer.webp)
+
+---
+
+👉 At this stage, the app now has:  
+- A **clean semantic structure**  
+- **Core reusable components** ready for expansion  
+- A foundation for building out the **page-specific sections**  
