@@ -23,15 +23,19 @@ function FormSection() {
 
   return (
     <section className={Styles.Container}>
-      <ReservationForm availableTimes={availableTimes} dispatch={dispatch} />
       <div>
+        <h2>How to Reserve</h2>
+        <p><strong>Online (Fastest):</strong> Use the reservation form on this page, choose date, time, and party size.<br />
+        <strong>Phone:</strong> Call us at (+123456789) to speak with a host.<br />
+        <strong>Email:</strong> reservations@littlelemon for special requests or group bookings.</p>
         <h2>Before Reserving A Table</h2>
         <h3>Group Bookings & Private Events</h3>
         <p>
-          <strong>Small groups (6-10):</strong> Bookable via the standard form or phone.
-          <strong>Large parties & private events (10+):</strong> Please email events@littlelemon or call us — we may require a group menu and deposit for larger bookings. Tell us the date, number of guests, and any special requests.
+          <strong>Small groups (6-10):</strong> Bookable via the standard form or phone. <br />
+          <strong>Large parties & private events (10+):</strong> Please email events@littlelemon or call us, we may require a group menu and deposit for larger bookings. Tell us the date, number of guests, and any special requests.
         </p>
       </div>
+      <ReservationForm availableTimes={availableTimes} dispatch={dispatch} />
     </section>
   );
 }

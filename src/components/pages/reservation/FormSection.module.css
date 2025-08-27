@@ -1,8 +1,9 @@
 .Container{
     max-width: 1200px;
-    padding: 20px;
+    padding: 30px 20px;
     margin: auto;
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 .Container div{
