@@ -6,6 +6,7 @@ import Home from './components/pages/homepage/Home';
 import About from './components/pages/about/About';
 import AfterHeader from './components/AfterHeader';
 import BeforeFooter from './components/BeforeFooter';
+import Menu from './components/pages/menu/Menu';
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
         <Route path='/menu' element={
           <main>
             <AfterHeader title="Menu" strong="Bright, seasonal Mediterranean plates,simple ingredients, bold flavors." para="Our menu changes with the seasons and focuses on fresh produce, honest technique, and shareable moments. Below is a sample menu to capture the Little Lemon spirit for your website." />
-
+            <Menu />
             <BeforeFooter heading="Dietary & Allergy Notes" para1="We're happy to accommodate dietary needs. Many dishes can be made vegetarian, vegan, or gluten-free, ask your server. Please inform us of allergies before ordering." subHeading="Seasonal & Catering" para2="Our menu rotates with seasonal produce, check back for weekly specials and chef tasting nights. Hosting an event? Ask about our catering menu and private dining options." />
           </main>
         } />
