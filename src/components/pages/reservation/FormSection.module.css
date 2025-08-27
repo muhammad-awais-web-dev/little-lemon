@@ -1,0 +1,16 @@
+.Container{
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+.Container div{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+    gap: 20px;
+}
+.Container h2{
+  font-family: "Itim", cursive;
+}
