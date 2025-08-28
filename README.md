@@ -429,9 +429,9 @@ If the API call is successful, the user is redirected to a **confirmation page**
 
 ### Screenshots  
 **Reservation Form (With Validation)**  
-![Reservation Form](./public/ReservationForm.webp)  
+![Reservation Form](./public/images/ReservationForm.webp)  
 
 **Confirmed Booking Page (After Submission)**  
-![Confirmed Booking](./public/ConfirmedBooking.webp)  
+![Confirmed Booking](./public/images/ConfirmedBooking.webp)  
 
 ---
