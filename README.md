@@ -361,3 +361,77 @@ This not only reduces code duplication but also ensures consistency across diffe
 - A **clean semantic structure**  
 - **Core reusable components** ready for expansion  
 - A foundation for building out the **page-specific sections**  
+
+## Step 11: Creating Page-Specific Components  
+
+### Overview  
+After setting up the reusable components, the next step was to build **page-specific components** such as **Hero, Specials, and Menu**.  
+This allowed each page to display unique content while still maintaining the consistent structure established earlier.  
+
+✅ These components form the core of the homepage and will later connect to dynamic data.  
+
+---
+
+## Step 12: Setting Up the Reservation Form  
+
+### Overview  
+To enable online bookings, a **Reservation Form** was created using **React state management** and validation rules.  
+The form collects user details and ensures valid input before allowing submission.  
+
+### Features Implemented  
+- **Fields**: Email, Phone, Date, Time, Guests, Occasion  
+- **Validation Rules**:  
+  - Either **email or phone** must be provided  
+  - **Date** must be selected  
+  - **Time** must be selected from available slots  
+  - **Guests** must be between **1 and 10**  
+- **Client-side validation** with error messages  
+- **Dynamic available times** updated using `fetchAPI`  
+
+---
+
+## Step 13: Using `useReducer` for Available Times  
+
+### Overview  
+To manage available reservation times, React’s **`useReducer` hook** was implemented.  
+The reducer updates the available times whenever a new date is selected, calling the `fetchAPI` function to retrieve available slots.  
+
+### Implementation  
+- `initializeTimes()` → Loads available times for today when the component first renders.  
+- `updateTimes()` → Updates the list of times when a new date is chosen.  
+- `dispatch` → Triggered whenever the user selects a new date.  
+
+---
+
+## Step 14: Building the Reservation Form Component  
+
+### Overview  
+The `ReservationForm` component was built to handle all user interactions.  
+It manages **form state, validation, and submission** using `useState` and integrates with the reducer for available times.  
+
+### Key Features  
+- **Form State with `useState`** → Tracks values for email, phone, date, time, guests, and occasion.  
+- **Validation** → Displays inline error messages if required fields are missing or invalid.  
+- **Submit Handling** → On successful validation, form data is passed to `submitAPI`.  
+- **Navigation** → On successful submission, the user is redirected to the **Confirmed Booking** page.  
+
+---
+
+## Step 15: Submitting Reservation Data  
+
+### Overview  
+Finally, the form submission process was connected to the `submitAPI`.  
+If the API call is successful, the user is redirected to a **confirmation page**; otherwise, they see an error message.  
+
+✅ This completes the core functionality of the reservation flow, making the form interactive and fully functional.  
+
+---
+
+### Screenshots  
+**Reservation Form (With Validation)**  
+![Reservation Form](./public/ReservationForm.webp)  
+
+**Confirmed Booking Page (After Submission)**  
+![Confirmed Booking](./public/ConfirmedBooking.webp)  
+
+---
