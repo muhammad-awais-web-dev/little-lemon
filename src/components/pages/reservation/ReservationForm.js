@@ -5,12 +5,16 @@ import { useNavigate } from 'react-router-dom';
 
 
 function ReservationForm({ availableTimes, dispatch }) {
+  const [contact, setContact] = useState({
+    email: '',
+    phone: '',
+  });
   const [date, setDate] = useState('');
   const [time, setTime] = useState('');
   const [guests, setGuests] = useState(1);
   const [occasion, setOccasion] = useState('None');
   
-  const formValid = date && time && guests > 0 && guests <= 10;
+  const formValid = date && time && guests > 0 && guests <= 10 && (contact.email || contact.phone);
 
   const navigete = useNavigate()
   const handleDateChange = (e) => {
@@ -25,6 +29,7 @@ function ReservationForm({ availableTimes, dispatch }) {
     e.preventDefault();
     if (formValid) {
       const formData = {
+        contact,
         date,
         time,
         guests,
@@ -47,6 +52,25 @@ function ReservationForm({ availableTimes, dispatch }) {
     <div>
       <h2>Reservation Form</h2>
       <form className={Styles.form} onSubmit={handleSubmit}>
+        <label htmlFor="email" className={Styles.label}>Email</label>
+        <input
+          type="email"
+          id="email"
+          className={Styles.input}
+          value={contact.email}
+          onChange={e => setContact({ ...contact, email: e.target.value })}
+        />
+        <label htmlFor="phone" className={Styles.label}>Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          className={Styles.input}
+          value={contact.phone}
+          onChange={e => setContact({ ...contact, phone: e.target.value })}
+        />
+        {!contact.phone && !contact.email ? (
+          <span className={Styles.error}>Please enter an email or a valid phone number</span>
+        ) : null}
         <label htmlFor="res-date" className={Styles.label}>Choose date*</label>
         <input
           type="date"

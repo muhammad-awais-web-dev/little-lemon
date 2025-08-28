@@ -8,9 +8,19 @@
 .Container div{
     display: flex;
     flex-direction: column;
-    flex: 1 1 50%;
+    width: 50%;
     gap: 20px;
 }
 .Container h2{
   font-family: "Itim", cursive;
+}
+@media (max-width: 768px) {
+    .Container {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+    .Container div {
+        width: 100%;
+    }
+  
 }
