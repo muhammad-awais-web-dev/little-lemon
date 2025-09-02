@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Hero.css"; // Import styles
 
+
+const restaurant = process.env.PUBLIC_URL + '/images/restaurant.webp';
+
 function Hero() {
   return (
     <section className="home-hero">
@@ -23,7 +26,7 @@ function Hero() {
         </div>
 
         <div className="home-hero-image">
-          <img src="/images/restaurant.webp" alt="Restaurant"/>
+          <img src={restaurant} alt="Restaurant"/>
         </div>
       </div>
     </section>
