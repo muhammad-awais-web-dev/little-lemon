@@ -14,7 +14,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/project/little-lemon'>
       <ScrollToTop />
       <Navbar />
       <Routes>
