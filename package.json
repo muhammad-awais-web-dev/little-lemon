@@ -2,7 +2,7 @@
   "name": "little-lemon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://muhammad-awais-web-dev.github.io/project/little-lemon",
+  "homepage": "https://muhammad-awais-web-dev.github.io/little-lemon",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/user-event": "^13.5.0",
